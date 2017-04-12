@@ -1,0 +1,61 @@
+html,body{ margin: 0; padding: 0; background-color: #ccc; }
+.widget{ 
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 310px; 
+	height: 160px;  
+	background-color: #FFF;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px 0px #88898c; 
+    -webkit-box-shadow: 10px 10px 5px 0px #88898c;  
+    -ms-box-shadow: 10px 10px 5px 0px #88898c;  
+    -moz-box-shadow: 10px 10px 5px 0px #88898c;  
+	-o-box-shadow: 10px 10px 5px 0px #88898c; 
+    border: 1px solid #7c7c7c;
+	-webkit-border: 1px solid #7c7c7c;
+	-moz-border: 1px solid #7c7c7c;
+	-o-border: 1px solid #7c7c7c;
+	-ms-border: 1px solid #7c7c7c;
+ }
+
+ .location{
+ 	float: left;
+ 	width: 100%;
+ 	padding: 10px 0 0 10px;
+ 	margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+ }
+
+ .weather{
+ 	 float: left;
+ 	 width: 100%;
+ 	 margin: 0;
+ 	 padding: 10px 0 0 20px;
+ 	 box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+ }
+.deg{font-size: 45px; font-family: sans-serif; font-weight: bold; margin: 0 20px 0 0;}
+.temparature{ font-size: 50px; font-weight: bold; font-family: sans-serif;}
+.weather-img{ height: 30px; width: 40px;  position: absolute; margin:2px 0 0 0; }
+.condition{ font-size: 12px; font-weight: bold; font-family: sans-serif; }
+.forcasts{list-style: none; float: left; width: 100%;  padding: 0 0 0 9px; text-align: center;   box-sizing: border-box;}
+.forcasts li { float: left; border-right: 1px solid #ccc; padding: 0px 7px;  margin: 0; text-align: left;}
+.forcasts li span{ font-size: 10px; font-family: sans-serif; font-weight: bold; color:#5d5858; }
+.forcasts li:last-child{ border-right: none;}
+
+.forcasts li:nth-of-type(1n+6){ border-right: none;}
+.forcasts li:nth-of-type(1n+7) {display: none;}
+
+.clear{ clear: both; }
